@@ -1,0 +1,27 @@
+/**
+ * Set up a decent box model on the root element
+ */
+ html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    font-size: 62.5%;
+  }
+  
+  /**
+   * Basic styles for links
+   */
+
+a {
+    // color: $brand-color;
+    text-decoration: none;
+
+    // @include on-event {
+    //     color: $text-color;
+    //     text-decoration: underline;
+    // }
+}
